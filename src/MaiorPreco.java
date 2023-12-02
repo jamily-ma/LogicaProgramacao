@@ -13,7 +13,7 @@ public class MaiorPreco {
         double acumulador = 0;
 
 
-        while (i <= 3) {
+        while (i <= 15) {
 
             System.out.println("Digite o valor dos produto:");
             preco = in.nextDouble();
@@ -30,7 +30,7 @@ public class MaiorPreco {
         }
 
         System.out.println("O maior preço foi: R$" + maiorPreco);
-        System.out.println("A média dos preços: R$" + (acumulador/3));
-        
+        System.out.println("A média dos preços: R$" + (acumulador/15));
+
     }
 }
